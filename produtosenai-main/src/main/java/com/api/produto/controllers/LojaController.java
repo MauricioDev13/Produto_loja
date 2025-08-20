@@ -30,12 +30,12 @@ public class LojaController{
 
     @PostMapping("/salvar")
     public ResponseEntity<?> salvar(
-            @RequestBody @Valid LojaDto lojaDto(){
-                LojaModel lojaModel = produtoService.create(dto);
-        return ResponseEntity.status(HttpStatus.CREATED).body(LojaSalvar);
+            @RequestBody @Valid LojaDto dto){
+                LojaModel lojaSalvar = lojaService.create(dto);
+        return ResponseEntity.status(HttpStatus.CREATED).body(lojaSalvar);
 
     }
-    )
+
 
 
 

@@ -1,4 +1,4 @@
-package com.api.produtos.dtos;
+package com.api.produto.dtos;
 
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
