@@ -2,11 +2,8 @@ package com.api.produto.services;
 
 
 import com.api.produto.dtos.LojaDto;
-import com.api.produto.dtos.ProdutoDto;
 import com.api.produto.models.LojaModel;
-import com.api.produto.models.ProdutoModel;
 import com.api.produto.repository.LojaRepository;
-import com.api.produto.repository.ProdutoRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
